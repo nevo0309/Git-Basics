@@ -9,7 +9,7 @@ h1 {
   justify-content: center;
   align-items: center;
 
-  margin: 100px auto;
+  /* margin: 100px auto; */
   border-radius: 50%;
 
   font-size: 20px;
@@ -17,6 +17,13 @@ h1 {
   background-color: red;
 }
 .ball1 {
+  margin: 100px auto;
+  transition: 1s;
+  height: 100px;
+  width: 100px;
+}
+.ball2 {
+  margin: 150px auto;
   transition: 1s;
   height: 100px;
   width: 100px;
