@@ -6,10 +6,12 @@ function onBallClick() {
   let elBall1Height = parseInt(getComputedStyle(elBall1).height)
   let newWidth = elBall1Width + getRandomInt(20, 60)
   let newHeight = elBall1Height + getRandomInt(20, 60)
+  let randomColor = getRandomColor()
 
   elBall1.style.height = newHeight + 'px'
   elBall1.style.width = newWidth + 'px'
   elBall1.innerHTML = newWidth
+  elBall1.style.backgroundColor = randomColor
 
   if (newWidth > 400) {
     elBall1.style.width = '100px'
